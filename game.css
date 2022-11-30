@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+header > h1 {
+    color: lightcoral;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.result {
+    font-size: 40px;
+    color: black;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.choices {
+    padding: 50px;
+    margin: 50px, 0;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin: 0, 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: brown;
+}
+
+#action-massege {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
