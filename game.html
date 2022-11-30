@@ -6,27 +6,32 @@
     <link rel="stylesheet" href="game.css">
 </head>
 <body>
+
+
+
     <header>
         <h1>Rock Paper Scissors</h1>
     </header>
 
-    <div class="result">
-        <p>Paper covers rock. You win!</p>
+    <div class="eredmeny">
+        <p id="jatekős_valasztas"></p>
+        <p id="gep_valasztas"></p>
+        <p id="vege"></p>
     </div>
 
+
     <div class="choices">
-        <div class="choice" id="r">
+        <div class="choice" id="r" onclick="valaszt('kő')">
             <img src="images/rock.png">
         </div>
-        <div class="choice" id="p">
+        <div class="choice" id="p" onclick="valaszt('papír')">
             <img src="images/paper.png">
         </div>
-        <div class="choice" id="s">
+        <div class="choice" id="s" onclick="valaszt('olló')">
             <img src="images/scissors.png">
         </div>
     </div>
-
-    <p id="action-massege"> Make your move!</p>
+    <h1>Cseh Kristóf Dávid - MT4HYJ</h1>
     <script src="game.js" charset="utf-8"></script>
 </body>
 </html>

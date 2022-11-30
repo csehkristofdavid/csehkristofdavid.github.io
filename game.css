@@ -57,3 +57,13 @@ body {
     font-weight: bold;
     font-size: 28px;
 }
+p {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+h1 {
+    text-align: center;
+    color:black;
+    font-weight: 600;
+}
